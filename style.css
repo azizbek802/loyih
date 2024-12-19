@@ -1,0 +1,80 @@
+body{
+    background: #ececec;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h5{
+   text-align: center; 
+}
+
+h2{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
+
+header .rasm img{
+    width: 90px;
+}
+
+h5{
+    color: #949494;
+    background-color: linear-gradient rgb(red, green, blue);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card{
+    width:25%;
+    height: 400px;
+    background: #c7c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img{
+    width: 110px;
+    height: 90px;
+}
+
+.card:hover{
+    background: rgb(52, 52, 232);
+    color: #fff;
+}
+
+.card a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+}
+
+.card a:hover{
+    color: #fff;
+}
+
